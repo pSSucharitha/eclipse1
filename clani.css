@@ -1,0 +1,11 @@
+.div1{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition-duration: 2s;
+}
+.div1:hover{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+}
