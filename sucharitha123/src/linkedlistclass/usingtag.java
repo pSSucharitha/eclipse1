@@ -1,0 +1,32 @@
+
+package linkedlistclass;
+import java.util.Scanner;
+import java.util.LinkedList;
+public class usingtag {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		LinkedList<String> rt=new LinkedList<String>();
+		//LinkedList<int> rt1=new LinkedList<int>();
+//LinkedList rt=new LinkedList();
+LinkedList rt1=new LinkedList();
+rt.add("vbit");
+rt.add("subbu");
+rt.add("friend");
+System.out.println(rt);
+rt1.addAll(rt);
+System.out.println(rt1);
+rt.remove("friend");
+System.out.println(rt);
+rt.clear();
+System.out.println(rt);
+System.out.println(rt.size());
+System.out.println(rt.indexOf(1));
+rt1.addFirst("cbit");
+System.out.println(rt1);
+rt1.addLast("clg");
+System.out.println(rt1);
+	}
+
+}
